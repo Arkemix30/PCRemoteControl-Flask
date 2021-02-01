@@ -19,6 +19,7 @@ git clone https://github.com/Arkemix30/PCRemoteControl-Flask.git
 * Install all dependencies
 
 * To run the application you can either use the flask command or python’s -m switch with Flask. Before you can do that you need to tell your terminal the application to work with by exporting the FLASK_APP environment variable
+
 ```bash
 $ export FLASK_APP=server.py
 $ flask run
