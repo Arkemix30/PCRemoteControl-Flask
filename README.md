@@ -22,7 +22,7 @@ git clone https://github.com/Arkemix30/PCRemoteControl-Flask.git
 
 ```bash
 $ export FLASK_APP=server.py
-$ flask run
+$ flask run --host=0.0.0.0
     * Running on http://127.0.0.1:5000/
 ```
 ## Deployment 📦
