@@ -2,14 +2,14 @@
 
 _It's a Web Remote Control Panel with which you can put in Sleep mode or Shutdown your computer from any device that is connected to your local network, created with Flask in Python_
 
-## Comenzando 🚀
-
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Deployment** para conocer como desplegar el proyecto.
+## Getting Started 🚀
 
 
-### Instalation 🔧
+
+Look **Deployment** to know how to deploy it.
+
+
+### Installation 🔧
 
 _Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Flask._
 
@@ -17,13 +17,23 @@ _Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Flask.
 pip install Flask
 ```
 
-## Ejecutando las pruebas ⚙️
+## How to run locally ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+* Clone the repository
+```bash
+git clone https://github.com/Arkemix30/PCRemoteControl-Flask.git
+```
+* Install all dependencies
 
-## Despliegue 📦
+* To run the application you can either use the flask command or python’s -m switch with Flask. Before you can do that you need to tell your terminal the application to work with by exporting the FLASK_APP environment variable
+```bash
+$ export FLASK_APP=server.py
+$ flask run
+    * Running on http://127.0.0.1:5000/
+```
+## Deploy 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
+_To deploy to a web server, look at [Deployment Options](https://flask.palletsprojects.com/en/1.1.x/deploying/#deployment)_
 
 ## Construido con 🛠️
 
