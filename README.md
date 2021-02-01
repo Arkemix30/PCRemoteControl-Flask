@@ -1,4 +1,4 @@
-# PC Remote Sleep/Shutdown Control 
+# Local Remote Sleep/Shutdown PC Control 
 
 _It's a Web Remote Control Panel with which you can put in Sleep mode or Shutdown your computer from any device that is connected to your local network, created with Flask in Python_
 
